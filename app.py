@@ -6,7 +6,7 @@ import streamlit as st
 
   
 # load the model from disk
-final_model = pickle.load(open(r'C:\Users\ASUS\Desktop\Edtech_project\Edtech_project_pickle.pkl', 'rb'))
+final_model = pickle.load(open('Edtech_project_pickle.pkl', 'rb'))
 
 
 
