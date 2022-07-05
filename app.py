@@ -77,8 +77,8 @@ def main():
         
         
          
-main = np.asarray(main,dtype='float64')   
-   
+    main = np.asarray(main,dtype='float64')   
+    
     result=""
     if st.button("Predict"):
         result= final_model.predict([[Course_duration, Mentor_Experience ,No_of_projects , No_of_enrollment , Type_of_Session_Online , Assitance_and_support_yes ,Life_time_access_yes , Classroom_class_yes , Marketing_yes, Course_level_Beginner,Course_level_Intermediate]])
