@@ -77,7 +77,7 @@ def main():
         
         
          
-    main = np.asarray(main,dtype='float64')   
+    np.asarray(main,dtype='float64')   
     
     result=""
     if st.button("Predict"):
