@@ -9,7 +9,7 @@ import streamlit as st
 final_model = pickle.load(open('Edtech_project_pickle.pkl', 'rb'))
 
 
-final_model = np.asarray(final_model,dtype='float64')
+
 
 
 def main():
@@ -77,7 +77,7 @@ def main():
         
         
          
-    
+main = np.asarray(main,dtype='float64')   
    
     result=""
     if st.button("Predict"):
