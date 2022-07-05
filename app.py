@@ -76,8 +76,8 @@ def main():
         Course_level_Beginner= 0
         
         
-         
-    np.asarray(main,dtype=float64)   
+    main=main.astype(float)     
+
     
     result=""
     if st.button("Predict"):
