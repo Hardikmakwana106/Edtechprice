@@ -76,7 +76,7 @@ def main():
         Course_level_Beginner= 0
         
         
-    main=main.astype(float)     
+         
 
     
     result=""
